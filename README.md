@@ -1,2 +1,2 @@
 # TeamTrident
-Team Trident - FInal Project for INFO-I210
+Team Trident - Final Project for INFO-I210
