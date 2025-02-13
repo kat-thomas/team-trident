@@ -24,5 +24,8 @@ List core webpages and briefly describe the page of them
 List any websites that you might reference to influence you styling choices
 
 ### Members & Responsibilities
-
-List all members and their roles
+President: Kat Thomas
+Architect: Samantha Luker
+Scrum Master: Olivia Sparks
+Analyst: Julian Banks
+Designer: Rexton Kemp
