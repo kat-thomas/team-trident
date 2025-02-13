@@ -9,7 +9,7 @@ Brief description of your what your project is about and why you chose that topi
 
 ### Live Link
 
-[Blog Page](https://{username}.github.io/{reponame}/homework-2)  
+[Project Page]([https://{username}.github.io/{reponame}/homework-2](https://kat-thomas.github.io/TeamTrident/))  
 
 ### Key Takeaways
 
