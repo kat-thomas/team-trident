@@ -13,7 +13,7 @@ Brief description of your what your project is about and why you chose that topi
 
 ### Key Takeaways
 
-Understanding of why we are doing this project
+We are going to learn about MOONS!
 
 ### Core Webpages
 
