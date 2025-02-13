@@ -1,4 +1,4 @@
-# TeamTrident
+# Team Trident
 Team Trident - Final Project for INFO-I210
 
 ## Final Project
@@ -9,7 +9,7 @@ Brief description of your what your project is about and why you chose that topi
 
 ### Live Link
 
-[Project Page](https://kat-thomas.github.io/TeamTrident/)  
+[Project Page](https://kat-thomas.github.io/team-trident/)  
 
 ### Key Takeaways
 
