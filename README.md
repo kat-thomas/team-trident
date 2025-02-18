@@ -6,7 +6,7 @@ Team Trident - Final Project for INFO-I210
 
 ### Project Summary
 
-Brief description of your what your project is about and why you chose that topic.
+Our project is about the moons that orbit planets in our Solar System. We will each choose two moons to research and then create a page on our site to share what we have learned. We chose this because of our team name, Trident, and our love for all of the moons in our solar system!
 
 ### Live Link
 
