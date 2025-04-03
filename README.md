@@ -14,7 +14,7 @@ Our project is about the moons that orbit planets in our Solar System. We will e
 
 ### Key Takeaways
 
-We are going to learn about MOONS!
+We are going to learn about MOONS! We aim to further our understanding of html and css by building an informative wedbsite about the moons of our solar system.
 
 ### Core Webpages
 
