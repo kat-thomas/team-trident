@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   html, body {
+    height: 100%
+   }
+   h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px
+   }
+   nav ul{
+       background-color: indigo;
+       list-style: none;
+       padding: 20px;
+       display: flex;
+       gap: 40px;
+       font-size: large;
+   
+   }
+   
+   nav a{
+       text-decoration: none;
+       color: yellow;
+   }
+   nav a:hover {
+       text-decoration: underline;
+       text-decoration-style: wavy;
+       text-underline-offset: 3px;
+   }
