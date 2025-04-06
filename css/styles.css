@@ -28,3 +28,46 @@
        text-decoration-style: wavy;
        text-underline-offset: 3px;
    }
+
+#conspiracies{
+    margin: 0 auto;
+    padding: 50px;
+    width: 1000px;
+}
+
+#conspiracies li{
+   list-style: none;
+}
+
+#conspiracies li p{
+font-weight: bold;
+font-size: 20px;
+align-items: center;
+ }
+
+.conspiracy{
+  display: flex;
+  justify-content: center;
+}
+
+
+.moonwrapper{
+    height: 100%;
+    background-color: #0a0b10;
+    color: whitesmoke;
+}
+.moon{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.moon h1{
+padding: 50px;
+}
+.moon img{
+
+    height: 400px;
+   gap: 200px;
+   
+}
