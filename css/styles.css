@@ -1,73 +1,81 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   }
-   html, body {
-    height: 100%
-   }
-   h1, h2, h3, h4, h5, h6, p {
-    margin-bottom: 16px
-   }
-   nav ul{
-       background-color: #2b073d;
-       list-style: none;
-       padding: 20px;
-       display: flex;
-       gap: 40px;
-       font-size: large;
-   
-   }
-   
-   nav a{
-       text-decoration: none;
-       color: #e8efff;
-   }
-   nav a:hover {
-       text-decoration: underline;
-       text-decoration-style: wavy;
-       text-underline-offset: 3px;
-   }
-
-#conspiracies{
-    margin: 0 auto;
-    padding: 50px;
-    width: 1000px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+nav ul {
+  background-color: #2b073d;
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  gap: 40px;
+  font-size: large;
 }
 
-#conspiracies li{
-   list-style: none;
+nav a {
+  text-decoration: none;
+  color: #e8efff;
+}
+nav a:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 3px;
 }
 
-#conspiracies li p{
-font-weight: bold;
-font-size: 20px;
-align-items: center;
- }
+#conspiracies {
+  margin: 0 auto;
+  padding: 50px;
+  width: 1000px;
+}
 
-.conspiracy{
+#conspiracies li {
+  list-style: none;
+}
+
+#conspiracies li p {
+  font-weight: bold;
+  font-size: 20px;
+  align-items: center;
+}
+
+.conspiracy {
   display: flex;
   justify-content: center;
 }
 
-
-.moonwrapper{
-    height: 100%;
-    background-color: #0a0b10;
-    color: whitesmoke;
+.moonwrapper {
+  height: 100%;
+  background-color: #0a0b10;
+  color: whitesmoke;
 }
-.moon{
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
+.moon {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
 }
 
-.moon h1{
-padding: 50px;
+.moon h1 {
+  padding: 50px;
 }
-.moon img{
+.moon img {
+  height: 400px;
+  gap: 200px;
+}
 
-    height: 400px;
-   gap: 200px;
-   
+h1 {
+  font-family: "Special Gothic";
+  font-style: normal;
 }
