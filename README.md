@@ -31,3 +31,11 @@ Architect: Samantha Luker
 Scrum Master: Olivia Sparks
 Analyst: Julian Banks
 Designer: Rexton Kemp
+
+### what we want to say about our moons
+
+planet:
+size:
+day length:
+tidally locked:
+who made it (discovered):

@@ -10,7 +10,7 @@
     margin-bottom: 16px
    }
    nav ul{
-       background-color: indigo;
+       background-color: #2b073d;
        list-style: none;
        padding: 20px;
        display: flex;
@@ -21,7 +21,7 @@
    
    nav a{
        text-decoration: none;
-       color: yellow;
+       color: #e8efff;
    }
    nav a:hover {
        text-decoration: underline;
