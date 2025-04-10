@@ -79,3 +79,11 @@ h1 {
   font-family: "Special Gothic";
   font-style: normal;
 }
+
+p {
+  font-family: Georgia;
+}
+
+nav ul a {
+  font-family: Georgia;
+}
