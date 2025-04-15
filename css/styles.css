@@ -57,6 +57,9 @@ nav a:hover {
 }
 
 .moonwrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: auto;
   background-color: #0a0b10;
   color: whitesmoke;
