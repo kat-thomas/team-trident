@@ -90,6 +90,7 @@ h2 {
 
 p {
   font-family: Georgia;
+  font-size: 15px;
 }
 
 nav ul a,
@@ -98,6 +99,13 @@ button {
 }
 
 /* Moon Info CSS */
+
+.moon-info {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  padding-bottom: 50px;
+}
 
 /* ------------ START CSS FOR DROPDOWN ------------ */
 /* Dropdown Button */
