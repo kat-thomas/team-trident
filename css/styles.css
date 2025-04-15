@@ -57,7 +57,7 @@ nav a:hover {
 }
 
 .moonwrapper {
-  height: 100%;
+  height: auto;
   background-color: #0a0b10;
   color: whitesmoke;
 }
