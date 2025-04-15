@@ -35,7 +35,6 @@ nav a:hover {
   text-underline-offset: 3px;
 }
 
-
 #conspiracies {
   margin: 0 auto;
   padding: 50px;
@@ -59,7 +58,7 @@ nav a:hover {
 
 .moonwrapper {
   height: 100%;
-  background-color: black;
+  background-color: #0a0b10;
   color: whitesmoke;
 }
 .moon {
@@ -76,18 +75,29 @@ nav a:hover {
   gap: 200px;
 }
 
+/* Font CSS */
 h1 {
   font-family: "Special Gothic";
   font-style: normal;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Special Gothic";
+  font-style: normal;
+  font-size: 20px;
 }
 
 p {
   font-family: Georgia;
 }
 
-nav ul a, button {
+nav ul a,
+button {
   font-family: Georgia;
 }
+
+/* Moon Info CSS */
 
 /* ------------ START CSS FOR DROPDOWN ------------ */
 /* Dropdown Button */
