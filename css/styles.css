@@ -35,15 +35,37 @@ nav a:hover {
   text-underline-offset: 3px;
 }
 
+/*for pages with the star background*/
 .stars{
-  background-image:images/stars.jpeg;
+  color: #e8efff;
+margin: 0 auto;
+}
+
+.stars div{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.stars div h2{
+  color: #df9eff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.songs{
+  margin-left: 120px;
+}
+.songs iframe{
+gap: 10px;
 }
 #conspiracies {
   margin: 0 auto;
   padding: 50px;
   width: 1000px;
+  background-color: #df9eff;
+  color: #2b073d;
+  border-radius: 5px;
 }
-
 #conspiracies li {
   list-style: none;
 }
@@ -54,9 +76,40 @@ nav a:hover {
   align-items: center;
 }
 
+#new-conspiracy{
+  justify-content: center;
+}
+
+#conspiracy-text{
+margin-left: 320px;
+margin-bottom: 20px;
+height: 65px;
+width: 650px;
+padding: 10px;
+background-color: #2b073d;
+color: #a348d1;
+border-color: #e8efff;
+border-width: 2px;
+border-style: double;
+}
 .conspiracy {
   display: flex;
   justify-content: center;
+  color: #e8efff;
+}
+
+.conspiracybutton input{
+  height: 50px;
+  width: 150px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 700px;
+  margin-bottom: 30px;
+  background-color: #df9eff;
+  color: #2b073d;
+  border: none;
+  border-radius: 5px;
 }
 
 .moonwrapper {
