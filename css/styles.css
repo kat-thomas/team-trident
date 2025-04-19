@@ -35,6 +35,9 @@ nav a:hover {
   text-underline-offset: 3px;
 }
 
+.stars{
+  background-image:images/stars.jpeg;
+}
 #conspiracies {
   margin: 0 auto;
   padding: 50px;
@@ -134,6 +137,12 @@ button {
 
 .info p {
   font-size: 20px;
+}
+
+.funfact{
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
 }
 
 /* ------------ START CSS FOR DROPDOWN ------------ */
