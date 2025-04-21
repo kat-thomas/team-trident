@@ -22,17 +22,42 @@ const conspiracyTextRef=document.querySelector("#conspiracy-text")
 async function getConspiracies(){
     const conspiraciesDocs= await getDocs
     (conspiracyCollection);
-    console.log(conspiraciesDocs.docs.length);
 
     conspiraciesRef.innerHTML="";
+
     for (let i = 0; i < conspiraciesDocs.docs.length; i++) {
         const currentConspiracy = conspiraciesDocs.docs [i];
-        console.log(currentConspiracy.id, currentConspiracy.data());
+
 
         const conspiracyData =currentConspiracy.data();
-        conspiraciesRef.innerHTML += "<li>" + "<p>" + conspiracyData.text + "</p>"+ "</li>";
+
+        const hearts= data.hearts || 0;
+
+        conspiraciesRef.innerHTML += "<li>" + "<p>" + conspiracyData.text + "</p>"+ "</li>" + <h4>
+        <span class="delete" data-id="${currentconspiracy.id}">&cross;</span>${data.text}
+        </h4> +
+        <p>Likes: ${hearts}</p> +
+        <p>
+            <button class="edit">
+                Edit
+            </button>
+            <button class="heart" data-id= "$currentconspiracy.id}"
+            data-hearts="${hearts}" > & hearts;</button>
+            </p>
+        ;
+    }
+    const heartsref =document.querySelectorAll( ".heart");
+
+    for (let i=0; i < heartsref.length;i++) {
+        heartsRef[i].onclick=addHeart
     }
 }
+
+const crossesRef= document.querySelectorAll(".delete");
+for (let i=0; i<crossesRef.length; i++){
+    crossesRef[i].onclick=deleteConspiracy
+}
+
 
 async function addNewConspiracy(e) {
     e.preventDefault();
@@ -41,13 +66,37 @@ async function addNewConspiracy(e) {
   const newConpsiracy=await addDoc(conspiracyCollection, {text: conspiracyTextValue});
   console.log(newConpsiracy);
 
-  getConspiracies();
 
   conspiraciesFormRef.reset();
 
+  conspiraciesFormRef.onsubmit= addNewConspiracy;
+  getConspiracies();
+}
+async function addHeart(e){
+    console.log("add heart", e.target.dataset.id);
+
+    const newHeartCount= Number(e.target.dataset.hearts) +1;
+    const conspiracyToUpdate= doc(
+        conspiracyCollection, e.target.dataset.id);
+        await updateDoc(conspiracyToUpdate, {
+            hearts: newHeartCount});
+    getConspiracies();
+    
 }
 
-conspiraciesFormRef.onsubmit= addNewConspiracy;
+async function deleteConspiracy(e){
+    console.log("delete conspiracy", e.target.dataset.id);
+
+    const userConfirmed= confirm("Are you really going to let yourself be silenced?");
+
+    if(userConfirmed){
+        const conspiracyToDelete= doc(dreamsCollection, e.target.dataset.id);
+
+        await deleteDoc(conspiracyToDelete);
+        getConspiracies()
+    }
+}
+
 
 
 

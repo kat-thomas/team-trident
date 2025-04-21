@@ -41,6 +41,7 @@ nav a:hover {
 margin: 0 auto;
 }
 
+
 .stars div{
   display: flex;
   justify-content: center;
@@ -97,6 +98,8 @@ border-style: double;
   justify-content: center;
   color: #e8efff;
 }
+
+.conspiracycontent
 
 .conspiracybutton input{
   height: 50px;
