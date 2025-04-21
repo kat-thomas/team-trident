@@ -6,7 +6,7 @@ Team Trident - Final Project for INFO-I210
 
 ### Project Summary
 
-Brief description of your what your project is about and why you chose that topic.
+Our project is about the moons that orbit planets in our Solar System. We will each choose two moons to research and then create a page on our site to share what we have learned. We chose this because of our team name, Trident, and our love for all of the moons in our solar system!
 
 ### Live Link
 
@@ -14,7 +14,7 @@ Brief description of your what your project is about and why you chose that topi
 
 ### Key Takeaways
 
-We are going to learn about MOONS!
+We are going to learn about MOONS! We aim to further our understanding of html and css by building an informative wedbsite about the moons of our solar system.
 
 ### Core Webpages
 
@@ -22,7 +22,7 @@ List core webpages and briefly describe the page of them
 
 ### Design Choices
 
-List any websites that you might reference to influence you styling choices
+Each moon page will feature a photo of the moon with a brief description of the moon. We will use space themed colors for the background. There will also be a nav at the top to access the other pages.
 
 ### Members & Responsibilities
 
@@ -31,3 +31,11 @@ Architect: Samantha Luker
 Scrum Master: Olivia Sparks
 Analyst: Julian Banks
 Designer: Rexton Kemp
+
+### what we want to say about our moons
+
+planet:
+size:
+day length:
+tidally locked:
+who made it (discovered):

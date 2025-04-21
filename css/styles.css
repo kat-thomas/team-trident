@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+nav ul {
+  background-color: #2b073d;
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  gap: 40px;
+  font-size: large;
+}
+
+nav a {
+  text-decoration: none;
+  color: #e8efff;
+}
+nav a:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 3px;
+}
+
+/*for pages with the star background*/
+.stars{
+  color: #e8efff;
+margin: 0 auto;
+}
+
+.stars div{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.stars div h2{
+  color: #df9eff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.songs{
+  margin-left: 120px;
+}
+.songs iframe{
+gap: 10px;
+}
+#conspiracies {
+  margin: 0 auto;
+  padding: 50px;
+  width: 1000px;
+  background-color: #df9eff;
+  color: #2b073d;
+  border-radius: 5px;
+}
+#conspiracies li {
+  list-style: none;
+}
+
+#conspiracies li p {
+  font-weight: bold;
+  font-size: 20px;
+  align-items: center;
+}
+
+#new-conspiracy{
+  justify-content: center;
+}
+
+#conspiracy-text{
+margin-left: 320px;
+margin-bottom: 20px;
+height: 65px;
+width: 650px;
+padding: 10px;
+background-color: #2b073d;
+color: #a348d1;
+border-color: #e8efff;
+border-width: 2px;
+border-style: double;
+}
+.conspiracy {
+  display: flex;
+  justify-content: center;
+  color: #e8efff;
+}
+
+.conspiracybutton input{
+  height: 50px;
+  width: 150px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 700px;
+  margin-bottom: 30px;
+  background-color: #df9eff;
+  color: #2b073d;
+  border: none;
+  border-radius: 5px;
+}
+
+.moonwrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  background-color: #0a0b10;
+  color: whitesmoke;
+}
+.moon {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.moon h1 {
+  padding: 50px;
+}
+.moon img {
+  height: 400px;
+  gap: 200px;
+}
+
+/* Font CSS */
+h1 {
+  font-family: "Special Gothic";
+  font-style: normal;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Special Gothic";
+  font-style: normal;
+  font-size: 20px;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+}
+
+nav ul a,
+button {
+  font-family: Georgia;
+}
+
+/* Moon Info CSS */
+
+.moon-info {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  padding-bottom: 50px;
+  color: whitesmoke;
+}
+
+.moon-info h1 {
+  padding-top: 50px;
+}
+
+.moon-info h2 {
+  color: #a348d1;
+}
+
+.moon-info p {
+  padding-left: 50px;
+}
+
+.moon-info ul {
+  padding-left: 50px;
+}
+
+.info {
+  display: flex;
+  align-items: baseline;
+}
+
+.info p {
+  font-size: 20px;
+}
+
+.funfact{
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+/* ------------ START CSS FOR DROPDOWN ------------ */
+/* Dropdown Button */
+.dropbtn {
+  background-color: #2b073d;
+  color: white;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2b073d;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2b073d;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #e8efff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #3f1057;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+/* ------------ END CSS FOR DROPDOWN ------------ */
