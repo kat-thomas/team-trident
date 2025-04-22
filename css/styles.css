@@ -36,28 +36,27 @@ nav a:hover {
 }
 
 /*for pages with the star background*/
-.stars{
+.stars {
   color: #e8efff;
-margin: 0 auto;
+  margin: 0 auto;
 }
 
-
-.stars div{
+.stars div {
   display: flex;
   justify-content: center;
   padding-top: 10px;
 }
 
-.stars div h2{
+.stars div h2 {
   color: #df9eff;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.songs{
+.songs {
   margin-left: 120px;
 }
-.songs iframe{
-gap: 10px;
+.songs iframe {
+  gap: 10px;
 }
 #conspiracies {
   margin: 0 auto;
@@ -77,21 +76,21 @@ gap: 10px;
   align-items: center;
 }
 
-#new-conspiracy{
+#new-conspiracy {
   justify-content: center;
 }
 
-#conspiracy-text{
-margin-left: 320px;
-margin-bottom: 20px;
-height: 65px;
-width: 650px;
-padding: 10px;
-background-color: #2b073d;
-color: #a348d1;
-border-color: #e8efff;
-border-width: 2px;
-border-style: double;
+#conspiracy-text {
+  margin-left: 320px;
+  margin-bottom: 20px;
+  height: 65px;
+  width: 650px;
+  padding: 10px;
+  background-color: #2b073d;
+  color: #a348d1;
+  border-color: #e8efff;
+  border-width: 2px;
+  border-style: double;
 }
 .conspiracy {
   display: flex;
@@ -99,9 +98,7 @@ border-style: double;
   color: #e8efff;
 }
 
-.conspiracycontent
-
-.conspiracybutton input{
+.conspiracycontent .conspiracybutton input {
   height: 50px;
   width: 150px;
   font-family: "Georgia";
@@ -195,10 +192,92 @@ button {
   font-size: 20px;
 }
 
-.funfact{
+.funfact {
   display: flex;
   align-items: baseline;
   gap: 20px;
+}
+
+/* Moonment CSS */
+
+.moonmentWrapper {
+  margin-top: 100px;
+}
+
+h4 {
+  font-family: "Special Gothic";
+  font-style: normal;
+  font-size: 20px;
+}
+
+.moonment {
+  background-color: #df9eff;
+  color: #2b073d;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 50px;
+  width: 500px;
+}
+
+.moonment p {
+  color: #a348d1;
+}
+
+.moonment .delete {
+  color: #e8efff;
+  font-family: "Special Gothic";
+  background-color: #a348d1;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.moonment .heart {
+  color: #e8efff;
+  font-family: "Special Gothic";
+  background-color: #a348d1;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.new-moonment {
+  background-color: #a348d1;
+  color: #e8efff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 50px;
+  width: 500px;
+}
+
+.new-moonment label {
+  font-family: "Special Gothic";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#moonment-text {
+  display: block;
+  background-color: #e8efff;
+  border: solid #df9eff;
+  border-radius: 10px;
+  width: 400px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#submit {
+  color: #3f1057;
+  font-family: "Special Gothic";
+  background-color: #df9eff;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 /* ------------ START CSS FOR DROPDOWN ------------ */

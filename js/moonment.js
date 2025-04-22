@@ -38,8 +38,8 @@ async function getMoonment() {
         </h4>
         <p>Likes: ${hearts}</p>
         <p>
-          <button class="delete" data-id="${currentMoonment.id}">Delete</button>
-          <button class="heart" data-id="${currentMoonment.id}" data-hearts="${hearts}" >&hearts;</button>
+        <button class="heart" data-id="${currentMoonment.id}" data-hearts="${hearts}" >&hearts;</button>  
+        <button class="delete" data-id="${currentMoonment.id}">delete</button>
         </p>
       </div>
     `;
