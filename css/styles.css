@@ -283,6 +283,55 @@ h4 {
   padding: 5px;
 }
 
+/* MAM CSS */
+
+.MAMwrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  color: whitesmoke;
+  margin-top: 50px;
+}
+
+#newMAMForm {
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 10px;
+  width: 1000px;
+  background-color: #a348d1;
+  color: #e8efff;
+  border-radius: 10px;
+}
+
+#newMAMForm label {
+  font-family: "Special Gothic";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#newMAMForm input {
+  background-color: #e8efff;
+  color: #3f1057;
+  border: none;
+  border-radius: 10px;
+  width: 500px;
+  height: 30px;
+  margin: 10px;
+  align-items: center;
+}
+
+#newMAMForm button {
+  color: #3f1057;
+  font-family: "Special Gothic";
+  background-color: #df9eff;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+}
+
 /* ------------ START CSS FOR DROPDOWN ------------ */
 /* Dropdown Button */
 .dropbtn {

@@ -12,42 +12,84 @@
       rel="stylesheet"
     />
   </head>
-  <nav>
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-      <li>
-        <div class="dropdown">
-          <button onclick="myFunction()" class="dropbtn">
-            &blacktriangledown; Moons
-          </button>
-          <div id="myDropdown" class="dropdown-content">
-            <a href="themoon.html">The Moon</a>
-            <a href="callisto.html">Callisto</a>
-            <a href="moon-ganymede.html">Ganymede</a>
-            <a href="moon-iapetus.html">Iapetus</a>
-            <a href="oberon.html">Oberon</a>
-            <a href="phobos.html">Phobos</a>
-            <a href="europa.html">Europa</a>
-            <a href="triton.html">Triton</a>
-            <a href="phoebe.html">Phoebe</a>
-            <a href="miranda.html">Miranda</a>
+  <body background="images/stars.jpg">
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">
+              &blacktriangledown; Moons
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="themoon.html">The Moon</a>
+              <a href="callisto.html">Callisto</a>
+              <a href="moon-ganymede.html">Ganymede</a>
+              <a href="moon-iapetus.html">Iapetus</a>
+              <a href="oberon.html">Oberon</a>
+              <a href="phobos.html">Phobos</a>
+              <a href="europa.html">Europa</a>
+              <a href="triton.html">Triton</a>
+              <a href="phoebe.html">Phoebe</a>
+              <a href="miranda.html">Miranda</a>
+            </div>
           </div>
+        </li>
+        <li>
+          <a href="conspiracy.html">Conspiracies</a>
+        </li>
+        <li>
+          <a href="MAM.html">Make A Moon</a>
+        </li>
+        <li>
+          <a href="lunartunes.html">Lunar Tunes</a>
+        </li>
+        <li>
+          <a href="cosmic.html">Cosmic Cinema</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="MAMwrapper">
+      <h1>Make a Moon</h1>
+      <p>
+        Have you wanted the chance to MAKE YOUR OWN MOON? Do you think it is
+        unfair that planets like Mercury and Venus don't have moons? Here's your
+        chance to make one!
+      </p>
+
+      <form action="" id="newMAMForm">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
         </div>
-      </li>
-      <li>
-        <a href="conspiracy.html">Conspiracies</a>
-      </li>
-      <li>
-        <a href="MAM.html">Make A Moon</a>
-      </li>
-      <li>
-        <a href="lunartunes.html">Lunar Tunes</a>
-      </li>
-      <li>
-        <a href="cosmic.html">Cosmic Cinema</a>
-      </li>
-    </ul>
-  </nav>
+        <div>
+          <label for="planet">Planet:</label>
+          <input type="text" id="planet" name="planet" />
+        </div>
+        <div>
+          <label for="size">Size:</label>
+          <input type="text" id="size" name="size" />
+        </div>
+        <div>
+          <label for="daylength">Day Length:</label>
+          <input type="text" id="daylength" name="daylength" />
+        </div>
+        <div>
+          <label for="dicoverer">Discovered by:</label>
+          <input type="text" name="discoverer" id="discoverer" />
+        </div>
+        <div>
+          <button type="submit">Make Your Moon</button>
+        </div>
+      </form>
+
+      <section id="MAM"></section>
+    </section>
+
+    <script type="module" src="js/mam.js"></script>
+    <script src="js/dropDown.js"></script>
+  </body>
 </html>
