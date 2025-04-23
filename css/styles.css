@@ -292,6 +292,8 @@ h4 {
   height: auto;
   color: whitesmoke;
   margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #newMAMForm {
@@ -330,6 +332,35 @@ h4 {
   border-radius: 10px;
   padding: 5px;
   margin: 10px;
+}
+
+#MAM {
+  background-color: #df9eff;
+  color: #2b073d;
+  border: none;
+  width: 1000px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#MAM div {
+  padding: 10px;
+}
+
+#MAM .delete {
+  color: #e8efff;
+  font-family: "Special Gothic";
+  background-color: #a348d1;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  height: 30px;
+}
+
+.MAMmoons {
+  margin-top: 50px;
 }
 
 /* ------------ START CSS FOR DROPDOWN ------------ */
