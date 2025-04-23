@@ -231,6 +231,7 @@ h4 {
   border: none;
   border-radius: 10px;
   padding: 5px;
+  height: 30px;
 }
 
 .moonment .heart {
@@ -241,6 +242,8 @@ h4 {
   border-radius: 10px;
   padding: 5px;
   margin-right: 10px;
+  width: 30px;
+  height: 30px;
 }
 
 .new-moonment {
