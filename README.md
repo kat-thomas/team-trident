@@ -51,8 +51,27 @@ The additional pages all feature a star themed background. We modeled out site a
 
 ### Members & Responsibilities
 
-President: Kat Thomas
-Architect: Samantha Luker
-Scrum Master: Olivia Sparks
-Analyst: Julian Banks
-Designer: Rexton Kemp
+#### President: Kat Thomas
+
+- Moons: Phobos, Oberon,
+- Make A Moon
+
+#### Architect: Samantha Luker
+
+- Moons: Miranda, Phoebe
+
+#### Scrum Master: Olivia Sparks
+
+- Moons: The Moon, Callisto
+- Conspiracies
+- Lunar Tunes
+
+#### Analyst: Julian Banks
+
+- Moons: Europa, Triton
+- Home Page
+
+#### Designer: Rexton Kemp
+
+- Moons: Ganymede, Iapetus
+- Cosmic Cinema
