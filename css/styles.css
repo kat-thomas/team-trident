@@ -363,6 +363,43 @@ h4 {
   margin-top: 50px;
 }
 
+.poster {
+  display: flex;
+margin-top: 50px;
+}
+
+.poster img {
+  width: 300px;
+  margin-left: 150px;
+}
+
+.poster h4 {
+  color: #df9eff;
+  margin-left: 150px;
+}
+
+.posters {
+  display: flex;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+.posters img {
+  width: 300px;
+  margin-left: 150px;
+}
+
+.posters h4 {
+  color: #df9eff;
+  margin-left: 150px;
+}
+
+.movie {
+  color: #e8efff;
+  display: flex;
+  align-items: center;
+}
+
 /* ------------ START CSS FOR DROPDOWN ------------ */
 /* Dropdown Button */
 .dropbtn {
