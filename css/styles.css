@@ -450,3 +450,135 @@ margin-bottom: 100px;
   display: block;
 }
 /* ------------ END CSS FOR DROPDOWN ------------ */
+
+/* ------------ START CSS FOR MOON NAV ------------ */
+.MoonHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #e8efff;
+  text-decoration: none;
+  }
+
+.MoonButton {
+  border-width: 0px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* --- MOONS --- */
+#EuropaHolder {
+  position: absolute;
+  inset-inline-start: 63%;
+  inset-block-start: 22%;
+}
+#EuropaButton {
+  background-image: url(../images/Europa.png);
+}
+
+#PhobosHolder {
+position: absolute;
+inset-inline-start: 70%;
+inset-block-start: 60%;
+}
+#PhobosButton {
+background-image: url(../images/Phobos.jpg);
+width: 150px;
+height: 150px;
+}
+
+#CallistoHolder {
+position: absolute;
+inset-inline-start: 27%;
+inset-block-start: 62%;
+}
+#CallistoButton {
+background-image: url(../images/Callisto.jpg);
+width: 210px;
+height: 210px;
+}
+
+#GanymedeHolder {
+position: absolute;
+inset-inline-start: 13%;
+inset-block-start: 50%;
+}
+#GanymedeButton {
+background-image: url(../images/Ganymede.jpg);
+}
+
+#IapetusHolder {
+position: absolute;
+inset-inline-start: 80%;
+inset-block-start: 35%;
+}
+#IapetusButton {
+background-image: url(../images/Iapetus.jpeg);
+width: 210px;
+height: 210px;
+}
+
+#MirandaHolder {
+position: absolute;
+inset-inline-start: 48%;
+inset-block-start: 10%;
+}
+#MirandaButton {
+background-image: url(../images/Miranda.png);
+}
+
+#OberonHolder {
+position: absolute;
+inset-inline-start: 12%;
+inset-block-start: 15%;
+}
+#OberonButton {
+background-image: url(../images/Oberon.jpg);
+width: 175px;
+height: 175px;
+}
+
+#PhoebeHolder {
+position: absolute;
+inset-inline-start: 29%;
+inset-block-start: 26%;
+}
+#PhoebeButton {
+background-image: url(../images/Phoebe.jpg);
+width: 150px;
+height: 150px;
+}
+
+#TritonHolder {
+position: absolute;
+inset-inline-start: 55%;
+inset-block-start: 65%;
+}
+#TritonButton {
+background-image: url(../images/Triton.jpg);
+width: 170px;
+height: 170px;
+}
+
+#LunaHolder {
+position: absolute;
+inset-inline-start: 42%;
+inset-block-start: 40%;
+}
+#LunaButton {
+background-image: url(../images/Moon.jpg);
+width: 250px;
+height: 250px;
+}
+
+.MoonName {
+padding-top: 5px;
+font-size: 24px;
+}
+/* ------------ END CSS FOR MOON NAV ------------ */
