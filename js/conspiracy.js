@@ -33,19 +33,19 @@ async function getConspiracies(){
 
         const hearts= data.hearts || 0;
 
-        conspiraciesRef.innerHTML += "<li>" + "<p>" + conspiracyData.text + "</p>"+ "</li>" + <h4>
-        <span class="delete" data-id="${currentconspiracy.id}">&cross;</span>${data.text}
-        </h4> +
-        <p>Likes: ${hearts}</p> +
-        <p>
-            <button class="edit">
-                Edit
-            </button>
-            <button class="heart" data-id= "$currentconspiracy.id}"
-            data-hearts="${hearts}" > & hearts;</button>
+        conspiraciesRef.innerHTML += `
+        <div class="conspiracies">
+            <h4>
+            ${data.text}
+            </h4>
+            <p>Likes: ${hearts}</p>
+            <p>
+            <button class="heart" data-id="${currentConspiracy.id}" data-hearts="${hearts}" >&hearts;</button>  
+            <button class="delete" data-id="${currentConspiracy.id}">delete</button>
             </p>
-        ;
-    }
+          </div>
+        `;
+      }
     const heartsref =document.querySelectorAll( ".heart");
 
     for (let i=0; i < heartsref.length;i++) {
