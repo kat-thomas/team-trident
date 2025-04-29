@@ -99,7 +99,7 @@ async function deleteMoonment(e) {
 
   const userConfirmed = confirm(
     "Do you want to delete your comment:",
-    e.target.dataset.id,
+
     "?"
   );
 

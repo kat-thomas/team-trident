@@ -43,16 +43,16 @@ async function getConspiracies() {
           </div>
         `;
   }
-  const heartsref = document.querySelectorAll(".heart");
+  const heartsRef = document.querySelectorAll(".heart");
 
-  for (let i = 0; i < heartsref.length; i++) {
+  for (let i = 0; i < heartsRef.length; i++) {
     heartsRef[i].onclick = addHeart;
   }
-}
 
-const crossesRef = document.querySelectorAll(".delete");
-for (let i = 0; i < crossesRef.length; i++) {
-  crossesRef[i].onclick = deleteConspiracy;
+  const crossesRef = document.querySelectorAll(".delete");
+  for (let i = 0; i < crossesRef.length; i++) {
+    crossesRef[i].onclick = deleteConspiracy;
+  }
 }
 
 async function addNewConspiracy(e) {
@@ -65,10 +65,12 @@ async function addNewConspiracy(e) {
   console.log(newConpsiracy);
 
   conspiraciesFormRef.reset();
-
-  conspiraciesFormRef.onsubmit = addNewConspiracy;
-  getConspiracies();
 }
+
+conspiraciesFormRef.onsubmit = addNewConspiracy;
+
+getConspiracies();
+
 async function addHeart(e) {
   console.log("add heart", e.target.dataset.id);
 
@@ -84,7 +86,8 @@ async function deleteConspiracy(e) {
   console.log("delete conspiracy", e.target.dataset.id);
 
   const userConfirmed = confirm(
-    "Are you really going to let yourself be silenced?"
+    "Are you really going to let yourself be silenced?",
+    e.target.dataset.id
   );
 
   if (userConfirmed) {
@@ -94,7 +97,5 @@ async function deleteConspiracy(e) {
     getConspiracies();
   }
 }
-
-conspiraciesFormRef.onsubmit = addNewConspiracy;
 
 getConspiracies();
