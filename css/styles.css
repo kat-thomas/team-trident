@@ -527,7 +527,7 @@ height: 210px;
 #MirandaHolder {
 position: absolute;
 inset-inline-start: 50%;
-inset-block-start: 15%;
+inset-block-start: 22%;
 }
 #MirandaButton {
 background-image: url(../images/Miranda.png);
