@@ -582,20 +582,3 @@ padding-top: 5px;
 font-size: 24px;
 }
 /* ------------ END CSS FOR MOON NAV ------------ */
-
-.HomeHeader1 {
-color: #e8efff;
-margin: 0 auto;
-display: flex;
-justify-content: center;
-padding-top: 10px;
-}
-
-.HomeHeader2 {
-  color: #df9eff;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  padding-top: 10px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  }
