@@ -112,18 +112,37 @@ nav a:hover {
   border-radius: 5px;
 }
 
+.conspiracies p{
+  margin-left: 50px;
+  margin-bottom: 0px;
+}
+
 .delete {
   height: 25px;
   width: 50px;
   font-family: "Georgia";
   font-style: normal;
   font-size: 10px;
+  margin-top: -800px;
   margin-left: 700px;
-  margin-bottom: 30px;
   background-color: #2b073d;
   color:#df9eff;
   border: none;
   border-radius: 5px;
+}
+
+.heart {
+  height: 50px;
+  width: 50px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-size: 50px;
+  margin-top: -200px;
+  padding-top: -200px;
+  margin-left: -50px;
+  background-color:#df9eff;
+  color:#2b073d;
+  border: none;;
 }
 
 .moonwrapper {
