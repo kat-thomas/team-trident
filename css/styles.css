@@ -112,6 +112,20 @@ nav a:hover {
   border-radius: 5px;
 }
 
+.delete {
+  height: 25px;
+  width: 50px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-size: 10px;
+  margin-left: 700px;
+  margin-bottom: 30px;
+  background-color: #2b073d;
+  color:#df9eff;
+  border: none;
+  border-radius: 5px;
+}
+
 .moonwrapper {
   display: flex;
   flex-direction: column;
