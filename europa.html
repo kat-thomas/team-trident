@@ -61,38 +61,71 @@
       </div>
       <div class="moon-info">
         <h1>Basic Info</h1>
-        <div>
+        <div class="info">
           <h2>Planet</h2>
           <p>Jupiter</p>
         </div>
-        <div>
+        <div class="info">
           <h2>Size (Diameter)</h2>
-          <p>~3,120 km</p>
+          <p>3,120 km</p>
         </div>
-        <div>
+        <div class="info">
           <h2>Surface Gravity</h2>
-          <p>0.134 g</p>
+          <p>1.314 m/s2</p>
         </div>
-        <div>
+        <div class="info">
           <h2>Day Length</h2>
-          <p></p>
+          <p>84 hours</p>
         </div>
-        <div>
+        <div class="info">
           <h2>Tidally Locked?</h2>
           <p>Yes</p>
         </div>
-        <div>
-          <h2>Who Discovered Phobos?</h2>
+        <div class="info">
+          <h2>Who Discovered Europa?</h2>
           <p>Galileo Galilei</p>
         </div>
         <div>
           <h1>Fun Facts</h1>
           <ul>
-            <li></li>
+            <li>The surface of Europa is bombarded by radiation from Jupiters magnetosphere. Standing on the surface of Europa for a day would be almost certainly fatal.</li>
+            <li>Scientists believe Europa has a subsurface ocean, possibly capable of harboring life.</li>
+            <li>Europa has a thin atmosphere made up mostly of oxygen and water vapor.</li>
           </ul>
         </div>
       </div>
-    </section>
+    
+
+    <section class="moonmentWrapper">
+        <h1>Comments</h1>
+        <section class="mooncomment">
+          <section id="moonments">
+            <div class="moonment">
+              <h4>Moonments loading...</h4>
+              <p>Likes: 0</p>
+              <p>
+                <button class="delete">Delete</button>
+                <button class="heart">&hearts;</button>
+              </p>
+            </div>
+          </section>
+        </section>
+
+        <section class="new-moonment">
+          <form action="#" id="new-moonment">
+            <div>
+              <label for="moonment-text">New Comment:</label>
+              <input type="text" id="moonment-text" name="moonment-text" />
+            </div>
+
+            <div>
+              <input type="submit" value="comment" id="submit" />
+            </div>
+          </form>
+        </section>
+      </section>
+
+    <script type="module" src="js/moonment.js"></script>
     <script src="js/dropDown.js"></script>
   </body>
 </html>
