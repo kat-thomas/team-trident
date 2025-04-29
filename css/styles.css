@@ -117,7 +117,7 @@ nav a:hover {
   margin-bottom: 0px;
 }
 
-.delete {
+.conspiracydelete {
   height: 25px;
   width: 50px;
   font-family: "Georgia";
@@ -131,7 +131,7 @@ nav a:hover {
   border-radius: 5px;
 }
 
-.heart {
+.conspiracyheart {
   height: 50px;
   width: 50px;
   font-family: "Georgia";

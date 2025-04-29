@@ -38,8 +38,8 @@ async function getConspiracies() {
             </h4>
             <p>Likes: ${hearts}</p>
             <p>
-            <button class="heart" data-id="${currentConspiracy.id}" data-hearts="${hearts}" >&hearts;</button>  
-            <button class="delete" data-id="${currentConspiracy.id}">delete</button>
+            <button class="conspiracyheart" data-id="${currentConspiracy.id}" data-hearts="${hearts}" >&hearts;</button>  
+            <button class="conspiracydelete" data-id="${currentConspiracy.id}">delete</button>
             </p>
           </div>
         `;
