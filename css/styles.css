@@ -526,11 +526,13 @@ height: 210px;
 
 #MirandaHolder {
 position: absolute;
-inset-inline-start: 48%;
-inset-block-start: 10%;
+inset-inline-start: 50%;
+inset-block-start: 15%;
 }
 #MirandaButton {
 background-image: url(../images/Miranda.png);
+width: 175px;
+height: 175px;
 }
 
 #OberonHolder {
