@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Moon - Triton</title>
+    <title>Moon - Phoebe</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -51,10 +51,83 @@
         </li>
       </ul>
     </nav>
-    <img src="Phoebe.html" alt="The moon Phoebe.html"> 
-      <p>
-        A moon 
-      </p>
+    <section class="moonwrapper">
+      <h1 class="moon">Phoebe</h1>
+      <div class="moon">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Phoebe_cassini_full.jpg/500px-Phoebe_cassini_full.jpg"
+          alt="Phoebe"
+        />
+      </div>
+      <div class="moon-info">
+        <h1>Basic Info</h1>
+        <div class="info">
+          <h2>Planet</h2>
+          <p>Saturn</p>
+        </div>
+        <div class="info">
+          <h2>Size (Diameter)</h2>
+          <p>213 km</p>
+        </div>
+        <div class="info">
+          <h2>Surface Gravity</h2>
+          <p>0.049 m/s²</p>
+        </div>
+        <div class="info">
+          <h2>Day Length</h2>
+          <p>9 hours</p>
+        </div>
+        <div class="info">
+          <h2>Tidally Locked?</h2>
+          <p>No</p>
+        </div>
+        <div class="info">
+          <h2>Who Discovered Phoebe?</h2>
+          <p>William Pickering</p>
+        </div>
+        <div>
+          <h1>Fun Facts</h1>
+          <ul>
+            <li>
+              It orbits around Saturn at a distance of 8,049,668 miles
+            </li>
+            <li>
+               It reflects only 6 percent of the sunlight it receives
+            </li>
+            <li>Phoebe's orbit goes in the opposite direction to most things in the solar system</li>
+          </ul>
+        </div>
+      </div>
+      <section class="moonmentWrapper">
+<h1>Comments</h1>
+        <section class="mooncomment">
+          <section id="moonments">
+            <div class="moonment">
+              <h4>Moonments loading...</h4>
+              <p>Likes: 0</p>
+              <p>
+                <button class="delete">Delete</button>
+                <button class="heart">&hearts;</button>
+              </p>
+            </div>
+          </section>
+        </section>
+
+        <section class="new-moonment">
+          <form action="#" id="new-moonment">
+            <div>
+              <label for="moonment-text">New Comment:</label>
+              <input type="text" id="moonment-text" name="moonment-text" />
+            </div>
+
+            <div>
+              <input type="submit" value="comment" id="submit" />
+            </div>
+          </form>
+        </section>
+      </section>
+    </section>
+    <script type="module" src="js/moonment.js"></script>
     <script src="js/dropDown.js"></script>
   </body>
 </html>
